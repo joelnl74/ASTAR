@@ -1,0 +1,8 @@
+﻿  Astar.cpp
+c:\users\joel van der werf\source\repos\project1\project1\astar.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  2 of 394 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\Joel van der werf\source\repos\Project1\Release\Project1.exe

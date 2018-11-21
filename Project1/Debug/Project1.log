@@ -1,0 +1,6 @@
+﻿  Astar.cpp
+c:\users\joel van der werf\source\repos\project1\project1\astar.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Grid.cpp
+c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Project1.vcxproj -> C:\Users\Joel van der werf\source\repos\Project1\Debug\Project1.exe
