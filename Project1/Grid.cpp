@@ -1,7 +1,7 @@
 #include "Grid.h"
 
-const int tileWdith = 64;
-const int tileHeight = 64;
+const int tileWdith = 25;
+const int tileHeight = 25;
 
 Grid::Grid(int width, int height)
 {
@@ -33,14 +33,14 @@ void Grid::CreateGrid()
 			node->y = y;
 
 			node->shape.setPosition(node->x * tileWdith + j, node->y * tileHeight + i);
-			node->shape.setSize(sf::Vector2f(64, 64));
+			node->shape.setSize(sf::Vector2f(tileWdith, tileHeight));
 			node->shape.setFillColor(sf::Color::White);
 			nodes.push_back(node);
-			i += 5;
+			i += 1;
 			if (y == _height - 1)
 				i = 0;
 		}
-		j += 5;
+		j += 1;
 	}
 }
 void Grid::CalculateNeighbours()

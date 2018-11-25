@@ -12,11 +12,11 @@ enum direction
 
 struct Node
 {
-	int x, y;               //Coordinates
-	bool bObstacle = false; //Is the node an obstruction?
-	bool bVisited = false;  //Have we searched this node?
-	float fGlobalGoal;      //Distance to goal so far
-	float fLocalGoal;       //Distance to goal if we took
+	int x, y;										 //Coordinates
+	bool bObstacle = false;							 //Is the node an obstruction?
+	bool bVisited = false;						     //Have we searched this node?
+	float fGlobalGoal;							     //Distance to goal so far
+	float fLocalGoal;							     //Distance to goal if we took
 	std::unordered_map<direction, Node*> neighBours; //Neighbours
 	Node * parent;                                   //Node connecting to this node
 	

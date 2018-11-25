@@ -37,7 +37,7 @@ bool Astar::SolveAStar(Grid * grid)
 	std::list<Node*> listNotTestedNodes;
 	listNotTestedNodes.push_back(start);
 
-	while (!listNotTestedNodes.empty() && currentNode != end)
+	while (!listNotTestedNodes.empty())
 	{
 		listNotTestedNodes.sort([](const Node* lhs, const Node* rhs) { return lhs->fGlobalGoal < rhs->fGlobalGoal; });
 

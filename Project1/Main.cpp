@@ -4,8 +4,9 @@
 #include "Astar.h"
 int main()
 {
-	sf::RenderWindow *window = new sf::RenderWindow(sf::VideoMode(800, 600), "SFML works!");
-	Grid *grid = new Grid(8,8);
+	sf::RenderWindow *window = new sf::RenderWindow(sf::VideoMode(1000, 1000), "SFML works!");
+	window->setFramerateLimit(30);
+	Grid *grid = new Grid(38,38);
 	Astar astar;
 	astar.SolveAStar(grid);
 	astar.SetNodeColor();
@@ -23,6 +24,7 @@ int main()
 		grid->DrawGrid(window);
 		window->display();
 	}
-
+	delete grid;
+	delete window;
 	return 0;
 }
