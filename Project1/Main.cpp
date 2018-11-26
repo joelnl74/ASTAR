@@ -6,7 +6,7 @@ int main()
 {
 	sf::RenderWindow *window = new sf::RenderWindow(sf::VideoMode(1000, 1000), "SFML works!");
 	window->setFramerateLimit(30);
-	Grid *grid = new Grid(38,38);
+	Grid *grid = new Grid(5,5);
 	Astar astar;
 	astar.SolveAStar(grid);
 	astar.SetNodeColor();
