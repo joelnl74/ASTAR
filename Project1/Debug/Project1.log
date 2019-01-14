@@ -1,15 +1,2 @@
-﻿  Grid.cpp
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(101): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(145): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(146): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(150): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(151): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(156): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(160): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(161): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\joel van der werf\source\repos\project1\project1\grid.cpp(165): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Project1.vcxproj -> C:\Users\Joel van der werf\source\repos\Project1\Debug\Project1.exe
+﻿  Main.cpp
+  Project1.vcxproj -> E:\school\Minor deel 2\Plat ai\Project1\Debug\Project1.exe

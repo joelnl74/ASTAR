@@ -51,7 +51,7 @@ bool Astar::SolveAStar(Grid * grid)
 		currentNode = listNotTestedNodes.front();
 		currentNode->bVisited = true;
 
-		for (auto node : currentNode->neighBours)
+		for (auto node : currentNode->pathWays)
 		{
 			if (!node.second->bVisited && node.second->bObstacle == 0)
 				listNotTestedNodes.push_back(node.second);
@@ -77,4 +77,5 @@ Astar::Astar()
 
 Astar::~Astar()
 {
+
 }

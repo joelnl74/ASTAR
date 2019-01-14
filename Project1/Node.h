@@ -19,6 +19,7 @@ struct Node
 	float fGlobalGoal;							     //Distance to goal so far
 	float fLocalGoal;							     //Distance to goal if we took
 	std::unordered_map<direction, Node*> neighBours; //Neighbours
+	std::unordered_map<direction, Node*> pathWays; //Neighbours
 	Node * parent;                                   //Node connecting to this node
 
 	float spritePositionX, spritePositionY;
